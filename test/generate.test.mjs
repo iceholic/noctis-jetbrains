@@ -61,15 +61,17 @@ test("plugin XML registers all generated themes", () => {
   const files = generateNoctisThemeProject();
   const pluginXml = files["src/main/resources/META-INF/plugin.xml"].content;
 
-  assert.match(pluginXml, /<id>com.noctis.intellij<\/id>/);
+  assert.match(pluginXml, /<id>io.github.iceholic.noctis<\/id>/);
+  assert.match(pluginXml, /<name>Noctis Theme<\/name>/);
+  assert.match(pluginXml, /<vendor url="https:\/\/github.com\/iceholic\/noctis-jetbrains">iceholic<\/vendor>/);
   assert.match(pluginXml, /Noctis theme collection port for IntelliJ Platform IDEs/);
 
   for (const themeSource of noctisThemes) {
     assert.match(pluginXml, new RegExp(`path="/themes/${themeSource.id}\\.theme\\.json"`));
   }
 
-  assert.match(pluginXml, /<themeProvider id="com.noctis.intellij.lux" path="\/themes\/noctis-lux.theme.json"\/>/);
-  assert.match(pluginXml, /<themeProvider id="com.noctis.intellij.noctis" path="\/themes\/noctis.theme.json"\/>/);
+  assert.match(pluginXml, /<themeProvider id="io.github.iceholic.noctis.lux" path="\/themes\/noctis-lux.theme.json"\/>/);
+  assert.match(pluginXml, /<themeProvider id="io.github.iceholic.noctis.noctis" path="\/themes\/noctis.theme.json"\/>/);
 });
 
 test("themes cover the main JetBrains IDE surfaces", () => {

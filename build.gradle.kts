@@ -2,7 +2,7 @@ plugins {
     id("org.jetbrains.intellij.platform") version "2.17.0"
 }
 
-group = "com.noctis.intellij"
+group = "io.github.iceholic.noctis"
 version = "0.2.0"
 
 repositories {
@@ -23,8 +23,8 @@ dependencies {
 intellijPlatform {
     buildSearchableOptions = false
     pluginConfiguration {
-        id = "com.noctis.intellij"
-        name = "Noctis"
+        id = "io.github.iceholic.noctis"
+        name = "Noctis Theme"
         version = project.version.toString()
         description = """
             Noctis theme collection port for IntelliJ Platform IDEs.
@@ -39,8 +39,8 @@ intellijPlatform {
             sinceBuild = "233"
         }
         vendor {
-            name = "Noctis JetBrains port"
-            url = "https://github.com/liviuschera/noctis"
+            name = "iceholic"
+            url = "https://github.com/iceholic/noctis-jetbrains"
         }
     }
 }

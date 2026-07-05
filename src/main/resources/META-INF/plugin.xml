@@ -1,10 +1,10 @@
 <idea-plugin>
-  <id>com.noctis.intellij</id>
-  <name>Noctis</name>
+  <id>io.github.iceholic.noctis</id>
+  <name>Noctis Theme</name>
   <version>0.2.0</version>
   <idea-version since-build="233"/>
   <depends>com.intellij.modules.platform</depends>
-  <vendor url="https://github.com/liviuschera/noctis">Noctis JetBrains port</vendor>
+  <vendor url="https://github.com/iceholic/noctis-jetbrains">iceholic</vendor>
   <description><![CDATA[
     Noctis theme collection port for IntelliJ Platform IDEs.
   ]]></description>
@@ -15,16 +15,16 @@
     </ul>
   ]]></change-notes>
   <extensions defaultExtensionNs="com.intellij">
-    <themeProvider id="com.noctis.intellij.lux" path="/themes/noctis-lux.theme.json"/>
-    <themeProvider id="com.noctis.intellij.hibernus" path="/themes/noctis-hibernus.theme.json"/>
-    <themeProvider id="com.noctis.intellij.lilac" path="/themes/noctis-lilac.theme.json"/>
-    <themeProvider id="com.noctis.intellij.noctis" path="/themes/noctis.theme.json"/>
-    <themeProvider id="com.noctis.intellij.azureus" path="/themes/noctis-azureus.theme.json"/>
-    <themeProvider id="com.noctis.intellij.bordo" path="/themes/noctis-bordo.theme.json"/>
-    <themeProvider id="com.noctis.intellij.obscuro" path="/themes/noctis-obscuro.theme.json"/>
-    <themeProvider id="com.noctis.intellij.sereno" path="/themes/noctis-sereno.theme.json"/>
-    <themeProvider id="com.noctis.intellij.uva" path="/themes/noctis-uva.theme.json"/>
-    <themeProvider id="com.noctis.intellij.viola" path="/themes/noctis-viola.theme.json"/>
-    <themeProvider id="com.noctis.intellij.minimus" path="/themes/noctis-minimus.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.lux" path="/themes/noctis-lux.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.hibernus" path="/themes/noctis-hibernus.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.lilac" path="/themes/noctis-lilac.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.noctis" path="/themes/noctis.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.azureus" path="/themes/noctis-azureus.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.bordo" path="/themes/noctis-bordo.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.obscuro" path="/themes/noctis-obscuro.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.sereno" path="/themes/noctis-sereno.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.uva" path="/themes/noctis-uva.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.viola" path="/themes/noctis-viola.theme.json"/>
+    <themeProvider id="io.github.iceholic.noctis.minimus" path="/themes/noctis-minimus.theme.json"/>
   </extensions>
 </idea-plugin>

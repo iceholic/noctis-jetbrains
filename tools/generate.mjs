@@ -6,6 +6,10 @@ import { noctisThemes, upstream } from "./noctis-source.mjs";
 const THEME_DIR_PATH = "src/main/resources/themes";
 const SCHEME_DIR_PATH = "src/main/resources/colors";
 const PLUGIN_XML_PATH = "src/main/resources/META-INF/plugin.xml";
+const PLUGIN_ID = "io.github.iceholic.noctis";
+const PLUGIN_NAME = "Noctis Theme";
+const PLUGIN_VENDOR = "iceholic";
+const PLUGIN_VENDOR_URL = "https://github.com/iceholic/noctis-jetbrains";
 const PLUGIN_VERSION = "0.2.0";
 
 // IntelliJ scheme XML expects numeric EFFECT_TYPE codes (see TextAttributes/EffectType),
@@ -88,7 +92,7 @@ function schemeReference(theme) {
 
 function themeProviderId(theme) {
   const suffix = theme.id === "noctis" ? "noctis" : theme.id.replace(/^noctis-/, "");
-  return `com.noctis.intellij.${suffix}`;
+  return `${PLUGIN_ID}.${suffix}`;
 }
 
 // New UI checkboxes are SVG icons tinted through named palette colors; dark LaFs
@@ -589,12 +593,12 @@ function buildEditorSchemeXml(themeSource) {
 function buildPluginXml(themes) {
   return [
     "<idea-plugin>",
-    "  <id>com.noctis.intellij</id>",
-    "  <name>Noctis</name>",
+    `  <id>${PLUGIN_ID}</id>`,
+    `  <name>${PLUGIN_NAME}</name>`,
     `  <version>${PLUGIN_VERSION}</version>`,
     '  <idea-version since-build="233"/>',
     "  <depends>com.intellij.modules.platform</depends>",
-    "  <vendor url=\"https://github.com/liviuschera/noctis\">Noctis JetBrains port</vendor>",
+    `  <vendor url="${PLUGIN_VENDOR_URL}">${PLUGIN_VENDOR}</vendor>`,
     "  <description><![CDATA[",
     "    Noctis theme collection port for IntelliJ Platform IDEs.",
     "  ]]></description>",

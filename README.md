@@ -1,6 +1,10 @@
 # Noctis JetBrains
 
+[![JetBrains Marketplace](https://img.shields.io/badge/JetBrains%20Marketplace-Noctis%20Theme-00A3B5?style=flat-square)](https://plugins.jetbrains.com/plugin/32673-noctis-theme/)
+
 JetBrains theme plugin for porting the [Noctis](https://github.com/liviuschera/noctis) theme collection.
+
+Install from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/32673-noctis-theme/).
 
 ## Current Scope
 

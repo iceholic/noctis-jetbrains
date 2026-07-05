@@ -14,6 +14,29 @@ JetBrains theme plugin for porting the [Noctis](https://github.com/liviuschera/n
 
 Generated JSON/XML resources should be regenerated instead of edited directly.
 
+## Screenshots
+
+The screenshots below use the public [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) sample project.
+
+<table>
+  <tr>
+    <th>Noctis</th>
+    <th>Noctis Lux</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-application.png" alt="Noctis theme showing a Spring Boot application class" width="420"></td>
+    <td><img src="screenshots/noctis-lux-application.png" alt="Noctis Lux theme showing a Spring Boot application class" width="420"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-controller.png" alt="Noctis theme showing a Spring MVC controller" width="420"></td>
+    <td><img src="screenshots/noctis-lux-controller.png" alt="Noctis Lux theme showing a Spring MVC controller" width="420"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-entity.png" alt="Noctis theme showing a JPA entity" width="420"></td>
+    <td><img src="screenshots/noctis-lux-entity.png" alt="Noctis Lux theme showing a JPA entity" width="420"></td>
+  </tr>
+</table>
+
 ## Structure
 
 ```text

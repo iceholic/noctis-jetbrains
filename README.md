@@ -18,6 +18,38 @@ Generated JSON/XML resources should be regenerated instead of edited directly.
 
 The screenshots below use the public [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) sample project.
 
+### Full IDE
+
+<table>
+  <tr>
+    <th>Noctis</th>
+    <th>Noctis Lux</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-workbench.png" alt="Noctis theme showing the IntelliJ IDEA workbench" width="420"></td>
+    <td><img src="screenshots/noctis-lux-workbench.png" alt="Noctis Lux theme showing the IntelliJ IDEA workbench" width="420"></td>
+  </tr>
+</table>
+
+### IDE Surfaces
+
+<table>
+  <tr>
+    <th>Noctis</th>
+    <th>Noctis Lux</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-find-in-files.png" alt="Noctis theme showing Find in Files" width="420"></td>
+    <td><img src="screenshots/noctis-lux-find-in-files.png" alt="Noctis Lux theme showing Find in Files" width="420"></td>
+  </tr>
+  <tr>
+    <td><img src="screenshots/noctis-settings.png" alt="Noctis theme showing the Settings window" width="420"></td>
+    <td><img src="screenshots/noctis-lux-settings.png" alt="Noctis Lux theme showing the Settings window" width="420"></td>
+  </tr>
+</table>
+
+### Editor Details
+
 <table>
   <tr>
     <th>Noctis</th>

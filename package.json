@@ -1,0 +1,14 @@
+{
+  "name": "noctis-jetbrains",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "JetBrains theme plugin resources generated from the Noctis VS Code theme collection.",
+  "scripts": {
+    "generate": "node tools/generate.mjs",
+    "test": "node --test",
+    "check": "npm run generate && npm test",
+    "build:plugin": "gradle buildPlugin",
+    "run:ide": "gradle runIde"
+  }
+}

@@ -64,7 +64,9 @@ test("plugin XML registers all generated themes", () => {
   assert.match(pluginXml, /<id>io.github.iceholic.noctis<\/id>/);
   assert.match(pluginXml, /<name>Noctis Theme<\/name>/);
   assert.match(pluginXml, /<vendor url="https:\/\/github.com\/iceholic\/noctis-jetbrains">iceholic<\/vendor>/);
-  assert.match(pluginXml, /Noctis theme collection port for IntelliJ Platform IDEs/);
+  assert.match(pluginXml, /Noctis Theme brings the <a href="https:\/\/github.com\/liviuschera\/noctis">Noctis<\/a>/);
+  assert.match(pluginXml, /<b>11 Noctis variants<\/b>/);
+  assert.match(pluginXml, /https:\/\/plugins.jetbrains.com\/plugin\/32673-noctis-theme\//);
 
   for (const themeSource of noctisThemes) {
     assert.match(pluginXml, new RegExp(`path="/themes/${themeSource.id}\\.theme\\.json"`));
